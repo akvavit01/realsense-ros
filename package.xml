@@ -27,8 +27,6 @@
   <depend>ddynamic_reconfigure</depend>
   <depend>diagnostic_updater</depend>
   <depend>librealsense2</depend>
-  <exec_depend>xacro</exec_depend>
-  <test_depend>rosunit</test_depend>
   <export>
     <nodelet plugin="${prefix}/nodelet_plugins.xml" />
   </export>
